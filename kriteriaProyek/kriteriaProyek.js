@@ -23,7 +23,107 @@
 //     "body": "Konten catatan"
 //    }
 
-{
-    "status": "success",
-    "message": "Catatan berhasil ditambahkan", // optional message if there is any error or success status code 
-}
+// {
+//     "status": "success",
+//     "message": "Catatan berhasil ditambahkan", // optional message if there is any error or success status code
+//     "data": {
+//         "noteID": "V09YExygSUYogwWJ"
+//     } 
+// }
+
+// {
+//     "status": "error",
+//     "message": "Catatan gagal untuk ditambahkan"
+// }
+
+// // Kriteria 2 - Web Server dapat menampilkan catatan
+// {
+//     "status": "success",
+//     "data": {
+//       "notes": [
+//         {
+//           "id":"notes-V1StGXR8_Z5jdHi6B-myT",
+//           "title":"Catatan 1",
+//           "createdAt":"2020-12-23T23:00:09.686Z",
+//           "updatedAt":"2020-12-23T23:00:09.686Z",
+//           "tags":[
+//             "Tag 1",
+//             "Tag 2"
+//           ],
+//           "body":"Isi dari catatan 1"
+//         },
+//         {
+//           "id":"notes-V1StGXR8_98apmLk3mm1",
+//           "title":"Catatan 2",
+//           "createdAt":"2020-12-23T23:00:09.686Z",
+//           "updatedAt":"2020-12-23T23:00:09.686Z",
+//           "tags":[
+//             "Tag 1",
+//             "Tag 2"
+//           ],
+//           "body":"Isi dari catatan 2"
+//         }
+//       ]
+//     }
+//   }
+
+//   {
+//     "status": "success",
+//     "data": {
+//       "notes": []
+//     }
+//   }
+
+//   {
+//     "status": "success",
+//     "data": {
+//       "note": {
+//         "id":"notes-V1StGXR8_Z5jdHi6B-myT",
+//         "title":"Catatan 1",
+//         "createdAt":"2020-12-23T23:00:09.686Z",
+//         "updatedAt":"2020-12-23T23:00:09.686Z",
+//         "tags":[
+//           "Tag 1",
+//           "Tag 2"
+//         ],
+//         "body":"Isi dari catatan 1"
+//       }
+//     }
+//   }
+
+//   {
+//     "status": "fail",
+//     "message": "Catatan tidak ditemukan"
+//   }
+
+//   {
+//     "title":"Judul Catatan Revisi",
+//     "tags":[
+//       "Tag 1",
+//       "Tag 2"
+//     ],
+//     "body":"Konten catatan"
+//   }
+
+//   {
+//     "status": "success",
+//     "message": "Catatan berhasil diperbaharui"
+//   }
+
+//   {
+//     "status": "fail",
+//     "message": "Gagal memperbarui catatan. Id catatan tidak ditemukan"
+//   }
+
+//   // Kriteria 4 - Web Server dapat menghapus catatan
+//   {
+//     "status": "success",
+//     "message": "Catatan berhasil dihapus"
+//   }
+
+//   {
+//   "status": "fail",
+//   "message": "Catatan gagal dihapus. Id catatan tidak ditemukan"
+// }
+
+
